@@ -1,0 +1,509 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.container{
+    background-color: white;
+    display: flex;
+    height: 70px;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+}
+.box1{
+    background-color:rgba(160, 43, 43, 0.001);
+    color: black;
+    height: 50px;
+    width:12%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+}
+.box2{
+    background-color:rgba(165, 44, 44, 0);
+    color: white;
+    height: 40px;
+    width:68%;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    align-self: center;
+}
+.box3{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 20%;
+    margin: 3px;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    align-content: space-between;
+}
+.a{
+    text-decoration: none;
+}
+.box2  a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.box3  a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.box2 a:hover{
+    text-decoration: none;
+    color: rgb(225, 220, 220);
+    background-color: black;
+}
+.box3 a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+span{
+    margin: 0px 10px 0px 10px;
+}
+.heading{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    justify-content: center;
+    height: 70px;
+    width: 1228px;
+}
+.nav2{
+    background-color: white;
+    display: flex;
+    position: absolute;
+    top: 140px;
+    height: 100px;
+    width: 1228px;
+    justify-content: center;
+}
+.options{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 0px 2px;
+}
+.selection {
+    display: flex;
+    justify-content: center;
+}
+.options p{
+    position: absolute;
+    top: 70px;
+    font-size: 11px;
+    text-align: center;
+}
+.selection p:hover{
+    border-bottom: 2px solid black;
+}
+.container1{
+    display: flex;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 240px;
+}
+.container1 img{
+    height: 500px;
+    width: 1228px;
+}
+.heading1{
+    display: flex;
+    position: absolute;
+    top: 740px;
+    width: 1228px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.selection1{
+    display: flex;
+    position: absolute;
+    top: 810px;
+    width: 1228px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.selection1 .options1{
+    justify-content: center;
+    align-items: center;
+}
+.selection1 .options1 a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.selection1 .options1 a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+.container2{
+    display: flex;
+    background-color: white;
+    height: 550px;
+    width: 1228px;
+    position: absolute;
+    top: 860px;
+    justify-content: flex-start;
+}
+.con1 .card{
+    background: url('./samsunglive1.webp')center center / cover;
+    position: absolute;
+    left: 0px;
+    margin: 25px;
+    height: 500px;
+    width: 30%;
+}
+.con2 .card{
+    background: url('./samsunglive2.webp')center center / cover;
+    position: absolute;
+    left: 33%;
+    margin: 25px;
+    height: 500px;
+    width: 30%;
+}
+.con3 .card{
+    background: url('./samsunglive3.webp')center center / cover;
+    position: absolute;
+    left: 66%;
+    margin: 25px;
+    height: 500px;
+    width: 30%;
+}
+.card .details h3{
+    position: absolute;
+    bottom: 50px;
+    left: 22%;
+    color: white;
+    font-size: large;
+}
+.details p{
+    position: absolute;
+    bottom: 18px;
+    left: 28%;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: small;
+}
+.con1 .card{
+    transition: all 200ms;
+}
+.con1 .card:hover{
+    transform: scale(1.05);
+}
+.con2 .card{
+    transition: all 200ms;
+}
+.con2 .card:hover{
+    transform: scale(1.05);
+}
+.con3 .card{
+    transition: all 200ms;
+}
+.con3 .card:hover{
+    transform: scale(1.05);
+}
+.container3{
+    background-color: red;
+    position: absolute;
+    top: 1410px;
+    height: 690px;
+    width: 1228px;
+}
+.heading2{
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+    align-items: center;
+}
+.options2 a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+}
+.options2 a:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+.container3_details{
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+    align-items: center;
+}
+.container3_details a{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: black;
+    margin: 0px 10px;
+}
+.container3_details button{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding: 4px 9px;
+}
+.container3_details a:hover{
+    color: black;
+}
+.container4{
+    background-color: red;
+    position: absolute;
+    top: 2100px;
+    height: 690px;
+    width: 1228px;
+}
+.container4_heading{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+    align-items: center;
+}
+.container4_options a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+}
+.container4_options a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+.container4_details{
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+    align-items: center;
+}
+.container4_details a{
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    color: white;
+    margin: 0px 10px;
+}
+.container4_details button{
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding: 4px 9px;
+}
+.container4_details a:hover{
+    color: white;
+}
+.container5{
+    background-color: red;
+    position: absolute;
+    top: 2790px;
+    height: 690px;
+    width: 1228px;
+}
+.container5_heading{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+    align-items: center;
+}
+.container5_options a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+}
+.container5_options a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+.container5_details{
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+    align-items: center;
+}
+.container5_details button{
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    font-size: small;
+    padding: 4px 9px;
+}
+.heading3{
+    background-color: white;
+    position: absolute;
+    top: 3480px;
+    height: 100px;
+    width: 1228px;
+    text-align: center;
+}
+.container6{
+    background-color: white;
+    position: absolute;
+    top: 3580px;
+    height: 550px;
+    width: 1228px;
+}
+.container6 img{
+    position: absolute;
+    top: 26px;
+}
+.container6 a{
+    position: absolute;
+    left: 600px;
+    margin: 26px 0px;
+    font-size: larger;
+}
+.container6_options a{
+    text-decoration: none;
+    color: black;
+}
+.container6_options a:hover{
+    border-bottom: 2px solid black;
+    color: black;
+}
+.heading4{
+    background-color: white;
+    position: absolute;
+    top: 4130px;
+    height: 160px;
+    width: 1228px;
+    text-align: center;
+}
+.heading4 input{
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+.heading4_details{
+    margin-bottom: 9px;
+}
+.heading4_details a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    border: 0.5px solid rgba(65, 62, 62, 0.982);
+    border-radius: 15px;
+    padding: 0px 5px;
+}
+.heading4_details1 a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+    border: 0.5px solid rgba(62, 61, 61, 0.982);
+    border-radius: 15px;
+    padding: 0px 5px;
+}
+.heading4_details a:hover{
+    background-color: rgba(0, 0, 0, 0.093);
+    color: black;
+}
+.heading4_details1 a:hover{
+    background-color: rgba(0, 0, 0, 0.093);
+    color: black;
+}
+.container7{
+    position: absolute;
+    top: 4320px;
+    font-size: x-small;
+    left: 50px;
+}
+.container8{
+    background-color: red;
+    display: flex;
+    position: absolute;
+    top: 4470px;
+    height: 600px;
+    width: 1228px;
+}
+.container8_box{
+    background-color: white;
+    height: 600px;
+    width: 245px;
+    border: 1px solid rgba(0, 0, 0, 0.451);
+    padding: 8px;
+    font-size: small;
+}
+.container8_box a{
+    text-decoration: none;
+    color: black;
+}
+.container9{
+    background-color: white;
+    position: absolute;
+    top: 5070px;
+    height: 200px;
+    width: 1228px;
+    padding: 20px;
+    font-size: small;
+    border-bottom: 1px solid grey;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    top: 5270px;
+    height: 50px;
+    width: 1228px;
+}
+.footer_box1{
+    background-color: white;
+    height: 50px;
+    width: 614px;
+    text-align: center;
+    font-size: small;
+}
+.footer_box1 a{
+    text-decoration: none;
+    margin: 0px 5px;
+}
+.footer_box2{
+    background-color: white;
+    height: 50px;
+    width: 614px;
+    text-align: center;
+}
+.footer_box svg{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
